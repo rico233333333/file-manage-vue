@@ -1,21 +1,23 @@
 <template>
-    <div class="common-layout">
+  <div class="common-layout">
     <el-container>
       <el-header>
         <Header />
       </el-header>
       <el-container>
-        <el-aside width="200px" height="100%">
-            <Aside />
+        <el-aside width="200px" height="100vh">
+          <Aside />
         </el-aside>
         <el-container>
           <el-main>
             <Main />
           </el-main>
-          <el-footer>
-            <Footer />
-          </el-footer>
         </el-container>
+      </el-container>
+      <el-container>
+        <el-footer>
+          <Footer/>
+        </el-footer>
       </el-container>
     </el-container>
   </div>

@@ -9,6 +9,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     Aside: typeof import('./src/components/layout/components/Aside.vue')['default']
     ElAside: typeof import('element-plus/es')['ElAside']
+    ElAvatar: typeof import('element-plus/es')['ElAvatar']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCard: typeof import('element-plus/es')['ElCard']
     ElCol: typeof import('element-plus/es')['ElCol']

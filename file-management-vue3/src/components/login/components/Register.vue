@@ -1,6 +1,6 @@
 <template>
     <h1>注册 Register</h1>
-    <el-form ref="ruleFormRef" style="" :model="ruleForm" status-icon :rules="rules" label-width="auto"
+    <el-form ref="ruleFormRef" :model="ruleForm" status-icon :rules="rules" label-width="auto"
         label-position="top">
         <el-form-item label="邮箱 Email" prop="email">
             <el-input v-model="ruleForm.email" />
